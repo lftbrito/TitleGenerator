@@ -1,0 +1,165 @@
+body{
+    background-image: url("/images/background.jpg");
+  height: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x:hidden;
+}
+.countstyle{
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  width: 15%;
+}
+
+.titlestyle{
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px 10px;
+}
+.carstyle{
+  border-radius: 10px;
+  margin: 0px 2px;
+  width: 25%;
+  padding: 4px 10px;
+}
+.variationstyle{
+  border-radius: 10px;
+  width: 50%;
+  padding: 4px 10px;
+}
+
+.form1{
+	max-width: 430px;
+	padding: 10px;
+  margin: 10px auto;
+}
+
+.form2{
+	max-width: 580px;
+	padding: 10px;
+  margin: 10px auto;
+}
+.divcar{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.divvariation{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.divtitle{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: left;
+}
+.divcenter{
+    text-align: center;
+}
+
+.titlebutton {
+    background-color: darkslategray;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0s;
+    font-family: "Papyrus", Times, serif;
+    font-weight: bold;
+  }
+  .titlebutton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  .carbutton {
+    background-color: darkslategray;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0s;
+    font-family: "Papyrus", Times, serif;
+    font-weight: bold;
+  }
+  .carbutton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  .variationbutton {
+    background-color: darkslategray;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0s;
+    font-family: "Papyrus", Times, serif;
+    font-weight: bold;
+  }
+  .variationbutton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  .submitbutton {
+    background-color: darkolivegreen;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0s;
+    font-family: "Papyrus", Times, serif;
+    font-weight: bold;
+  }
+  .submitbutton:hover {
+    background-color: green;
+    color: white;
+  }
+  .buttonholder{
+    text-align: center;
+  }
+  .brspace {
+    display: block;
+    margin: 2px 0;
+ }
+
+ footer {   
+  position: fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  background:rgba(43, 43, 43, 0.5);
+}
+
+p.copyright {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  line-height: 10px;
+  font-size: 14px;
+  text-align: center;
+  bottom: 0;
+}

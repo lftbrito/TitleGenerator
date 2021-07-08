@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(224, 224, 224, 0.6);
+    background: url("images/ListBackground.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x:hidden;
+    position:static;
+}
+footer {   
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    background:rgba(43, 43, 43, 0.5);
+  }
+  
+  p.copyright {
+    position: absolute;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    line-height: 10px;
+    font-size: 14px;
+    text-align: center;
+    bottom: 0;
+  }
